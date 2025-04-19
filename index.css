@@ -1,0 +1,154 @@
+* 
+{     
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;    
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1em;}
+ul{list-style: none;}
+
+a {
+    text-decoration: none !important;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.div-gym {
+    position: relative;
+    display: inline-block;
+}
+
+.img-gym {
+    width: 100%;
+    display: block;
+}
+
+.btn-registrar {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    padding: 12px 24px;
+    background-color: #4d8602;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-registrar:hover {
+    background-color: #40d124; 
+    transform: translateY(-50%) scale(1.05); 
+    box-shadow: 0 6px 10px rgba(226, 7, 7, 0.3);
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+
+#formulario {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+#formulario label { /* el texto*/
+    
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#formulario #nombre, #formulario #email, #formulario select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.horarios {
+    margin-top: 10px;
+}
+
+.horarios label {
+    display: block;
+    margin: 5px 0;
+}
+
+#formulario button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+footer {
+    text-align: center;
+    border-top: 10px solid #ffffff;
+}
+
+.footer-informacion ul {
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0;
+}
+
+.footer-informacion li {
+    margin: 10px 0;
+}
+
+.iconos-redes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.iconos-redes a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.icono-red {
+    width: 30px;
+    height: auto;
+    transition: transform 0.2s ;
+}
+
+.icono-red:hover {
+    transform: scale(1.6);
+}
